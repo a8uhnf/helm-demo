@@ -32,4 +32,6 @@ this will install necessary rbac for helm with admin previlage.
 ### Back to Tutorial
 
 1. `helm create <chart-name>`
-2. `helm install test-helm`
+2. `helm --dry-run --debug <chart-name>`
+// For dry-run
+3. `helm install helm-1`
