@@ -32,6 +32,9 @@ this will install necessary rbac for helm with admin previlage.
 ### Back to Tutorial
 
 1. `helm create <chart-name>`
-2. `helm --dry-run --debug <chart-name>`
+2. `helm --dry-run --debug <chart-path>`
+3. `helm install <chart-path>`
+Optionally set values.
+4. `helm repo add nginx-ingress https://kubernetes-charts-stable.storage.googleapis.com/`
 // For dry-run
 3. `helm install helm-1`
